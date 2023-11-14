@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="images/fav.jpg" type="image/jpg" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        /* Your existing CSS here */
+
+        /* Animation for the "Why Choose Us" section */
+        .features-text {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s ease forwards 0.5s;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Adjustments for feature spacing and image size */
+        .feature-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .features {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .features-img {
+            flex: 1;
+        }
+
+        .features-img img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div id="content">
+    <section id="banner">
+        <img src="images/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Vinay Hair Saloon</h1>
+            <p>The Best Hair Saloon</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="navigation">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#feature">FEATURES</a></li>
+                <li><a href="#service">SERVICES</a></li>
+                <li><a href="#feedback">FEEDBACK</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menubtn">
+        <img src="images/menu.png" id="menu">
+    </div>
+
+    <!-- code for features -->
+
+    <section id="feature">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>Why Choose Us</h1>
+        </div>
+
+        <div class="feature-box">
+            <div class="features">
+                <h1>Experienced Staff</h1>
+                <div class="feature-desc">
+                    <div class="features-icon">
+                        <i class="fa fa-shield"></i>
+                    </div>
+                    <div class="features-text">
+                        <p class="features-text">We have a team of highly experienced professionals who are dedicated to providing top-notch hair and beauty services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <h1>Affordable Prices</h1>
+                <div class="feature-desc">
+                    <div class="features-icon">
+                        <i class="fa fa-money"></i>
+                    </div>
+                    <div class="features-text">
+                        <p class="features-text">Our services come at affordable prices, ensuring that you get the best value for your money. We believe that looking and feeling great shouldn't break the bank.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <h1>Quality Service</h1>
+                <div class="feature-desc">
+                    <div class="features-icon">
+                        <i class="fa fa-thumbs-up"></i>
+                    </div>
+                    <div class="features-text">
+                        <p class="features-text">We take pride in delivering quality service to our clients. Your satisfaction is our top priority, and we strive to exceed your expectations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-img">
+                <img src="images/barber-man.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- code for features -->
+
+    <!-- code for service section -->
+    <section id="service">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h1>We Provide Better</h1>
+        </div>
+
+        <div class="service-box">
+            <div class="single-service">
+                <img src="images/pic-1.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Haircuts and Styling</h3>
+                    <hr>
+                    <p>Get the perfect haircut and style to enhance your look. Whether you prefer a classic cut or a trendy style, our experienced stylists will make sure you leave the salon looking your best.</p>
+                </div>
+            </div>
+
+            <div class="single-service">
+                <img src="images/pic-2.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Shaving and Beard Services</h3>
+                    <hr>
+                    <p>This service is dedicated to providing you with the perfect beard trim that suits your style and preferences. Our experienced barbers will ensure you leave with a well-groomed and stylish beard.</p>
+                </div>
+            </div>
+
+            <div class="single-service">
+                <img src="images/pic-3.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Facials and Skin Care</h3>
+                    <hr>
+                    <p>Our professional stylists are experts in hair styling. Whether you want a trendy haircut or a classic style, we've got you covered. We'll make sure you leave our salon looking and feeling your best.</p>
+                </div>
+            </div>
+
+            <div class="single-service">
+                <img src="images/pic-4.jpg">
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Aromatherapy and Relaxation Services</h3>
+                    <hr>
+                    <p>At our salon, we offer a variety of hair styling services to cater to your unique needs. From modern hairstyles to traditional looks, our skilled team will transform your hair into a work of art.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- code for service section -->
+
+    <!-- code for feedback section -->
+    <section id="feedback">
+        <div class="title-text">
+            <p>FEEDBACK</p>
+            <h1>What Clients Say</h1>
+        </div>
+
+        <div class="feedback-row">
+            <div class="feedback-col">
+                <div class="user">
+                    <img src="images/img-1.jpg">
+                    <div class="user-info">
+                        <h4>Daniel<i class="fa fa-twitter"></i></h4>
+                        <small>@daniel450</small>
+                    </div>
+                </div>
+                <p>"Vinay Hair Salon is the best place in town! They have an amazing team of professionals who provide exceptional hair and beauty services. I always leave with a perfect look, thanks to them!"</p>
+            </div>
+            <div class="feedback-col">
+                <div class="user">
+                    <img src="images/img-2.jpg">
+                    <div class "user-info">
+                        <h4>Radhika<i class="fa fa-twitter"></i></h4>
+                        <small>@Radhika01</small>
+                    </div>
+                </div>
+                <p>"I can't recommend Vinay Hair Salon enough! The staff is incredibly skilled, and they offer top-notch services at affordable prices. They make sure I always look and feel my best."</p>
+            </div>
+            <div class="feedback-col">
+                <div class="user">
+                    <img src="images/img-3.jpg">
+                    <div class="user-info">
+                        <h4>Prathamesh<i class="fa fa-twitter"></i></h4>
+                        <small>@Prathamesh056</small>
+                    </div>
+                </div>
+                <p>"Vinay Hair Salon is my go-to place for all my grooming needs. The quality of service they provide is outstanding, and they go above and beyond to exceed your expectations. Highly satisfied with their services!"</p>
+            </div>
+        </div>
+    </section>
+    <!-- code for feedback section -->
+
+    <!-- code for footer section -->
+    <section id="footer">
+        <img src="images/footer-img.png" class="footer-img">
+        <div class="title-text">
+            <p>CONTACT US</p>
+            <h1>Visit our Shop Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+                <p><i class="fa fa-clock-o"></i>Saturday and Sunday - 7am to 10pm</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get in Touch</h1>
+                <p>Green Village, Kashimira, Mira Road East <i class="fa fa-map-marker"></i></p>
+                <p>vy265608@gmail.com <i class="fa fa-paper-plane"></i></p>
+                <p>+91-9845623125 <i class="fa fa-phone"></i></p>
+            </div>
+        </div>
+
+        <<div class="social-media">
+    <a href="https://linkedin.com/in/vinayyadav015" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-youtube-play"></i>
+    <p>Copyright by Vinay Yadav</p>
+</div>
+    </section>
+</div>
+<!-- code for footer section -->
+
+<script src="script.js"></script>
+</body>
+</html>
